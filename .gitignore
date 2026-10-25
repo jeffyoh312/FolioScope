@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+data/*.db
+data/*.db-*
+# Keep only the public sample. Personal trade exports must not be committed.
+data/*
+!data/sample_transactions.csv
+
